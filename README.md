@@ -12,14 +12,24 @@ Abstract2CoverLetter is a standalone browser-based academic publishing tool. It 
 - Editor-in-Chief name
 - The journal’s aims and scope
 - Corresponding author name
+- Author number: 1 to 10
 - Manuscript type (optional)
 - Special note (optional)
+
+## Authorship logic
+
+The generated letter adapts automatically to the selected author number:
+
+- 1 author: singular language such as “my manuscript” and “I confirm”
+- 2–10 authors: plural language such as “our manuscript” and “We confirm”
+- For multi-author manuscripts, the declaration refers to the selected total number of authors.
 
 ## Workflow
 
 Article title
 → Abstract
 → Aims & scope
+→ Author information
 → Contribution extraction
 → Journal-fit analysis
 → Cover-letter drafting
@@ -29,7 +39,7 @@ Article title
 
 ## Output
 
-The application produces one journal-ready cover-letter draft rather than multiple competing letters. It also provides:
+The application produces one journal-ready cover-letter draft and also provides:
 
 - Cover Letter Quality Score /100
 - Completeness
@@ -45,7 +55,7 @@ The application produces one journal-ready cover-letter draft rather than multip
 
 ## Important limitation
 
-The application uses the aims and scope text supplied by the user but does not independently verify that it is current or complete. It also does not independently verify the current Editor-in-Chief, manuscript originality, exclusivity, or author approval. These items must be checked by the authors before submission.
+The application uses information supplied by the user but does not independently verify the current Editor-in-Chief, journal aims and scope, author count, manuscript originality, exclusivity, or author approval. These items must be checked before submission.
 
 ## Privacy
 

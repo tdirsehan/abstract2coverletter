@@ -44,11 +44,11 @@ This is a heuristic relevance indicator, not an acceptance probability.
 
 Submission statements are not required to generate the cover letter. Only statements selected by the user are included.
 
-Available options include:
-
 ### Publication status
 - This manuscript is original and has not been published previously.
 - This manuscript is not currently under consideration by another journal.
+
+### Authorship
 - The manuscript and submission have been approved by the author(s), as applicable.
 
 ### Competing interests

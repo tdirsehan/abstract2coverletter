@@ -2,7 +2,7 @@
 
 Generate and evaluate a journal-ready cover letter from your abstract, target journal, and the journal’s aims and scope.
 
-Abstract2CoverLetter is a standalone browser-based academic publishing tool. It turns core manuscript information and verified submission declarations into a professional editor-facing cover-letter draft and evaluates that draft before submission.
+Abstract2CoverLetter is a standalone browser-based academic publishing tool. It turns core manuscript information into a professional editor-facing cover-letter draft and evaluates that draft before submission.
 
 ## Required inputs
 
@@ -13,39 +13,37 @@ Abstract2CoverLetter is a standalone browser-based academic publishing tool. It 
 - The journal’s aims and scope
 - Corresponding author name
 - Author number: 1 or 2 or more
-- Originality / prior-publication confirmation
-- Confirmation that the manuscript is not currently under consideration by another journal
-- Author-approval confirmation
-- Competing-interest declaration
 
 ## Optional inputs
 
 - Manuscript type
 - Special note
+- Submission declarations
 
 ## Authorship logic
 
 The application adapts the cover-letter wording to the authorship structure:
 
-- 1 author: first-person singular wording such as “I am pleased to submit my manuscript” and “I confirm...”
-- 2 or more authors: corresponding-author wording such as “On behalf of my co-authors, I am pleased to submit our manuscript” and “We confirm...”
+- 1 author: first-person singular wording such as “I am pleased to submit my manuscript” and “I look forward...”
+- 2 or more authors: corresponding-author wording such as “On behalf of my co-authors, I am pleased to submit our manuscript” and “We look forward...”
 
-## Submission declarations
+## Optional submission declarations
 
-The cover letter cannot be generated until the user confirms the required submission declarations.
+Submission declarations are not required to generate the cover letter. The user is asked whether each statement applies and can tick only the statements they want included.
 
-The user must confirm that:
+Available declaration options are:
 
-- the manuscript is original and has not been published previously;
-- the manuscript is not currently under consideration by another journal;
-- the manuscript and submission have been approved by the author(s), as applicable.
+- This manuscript is original and has not been published previously.
+- This manuscript is not currently under consideration by another journal.
+- The manuscript and submission have been approved by the author(s), as applicable.
+- There are no known competing interests.
+- There are competing interests to disclose.
 
-For competing interests, the user must select one of two options:
+Only selected declarations are included in the generated cover letter. Unselected declarations are omitted rather than assumed.
 
-- No known competing interests
-- Competing interests exist and will be disclosed
+If “There are competing interests to disclose” is selected, a text box appears and the user writes the competing-interest statement in their own words. The application does not invent or infer the disclosure.
 
-The generated letter adapts its wording to the selected competing-interest status instead of assuming that no conflict exists.
+The “No known competing interests” and “There are competing interests to disclose” options are mutually exclusive.
 
 ## Workflow
 
@@ -53,7 +51,7 @@ Article title
 → Abstract
 → Aims & scope
 → Author information
-→ Submission declarations
+→ Optional submission declarations
 → Contribution extraction
 → Journal-fit analysis
 → Cover-letter drafting
@@ -79,7 +77,7 @@ The application produces one journal-ready cover-letter draft and also provides:
 
 ## Important limitation
 
-The application does not independently verify the Editor-in-Chief, aims and scope text, manuscript originality, exclusivity, author approval, competing-interest status, or any other submission declaration. All declarations remain the responsibility of the author(s) and should be checked against the target journal’s current policies before submission.
+The application does not independently verify the Editor-in-Chief, aims and scope text, manuscript originality, exclusivity, author approval, competing-interest status, or any other submission declaration. Any declaration selected by the user remains the responsibility of the author(s) and should be checked against the target journal’s current policies before submission.
 
 ## Privacy
 

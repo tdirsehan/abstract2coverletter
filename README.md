@@ -2,7 +2,7 @@
 
 Generate and evaluate a journal-ready cover letter from your abstract, target journal, and the journal’s aims and scope.
 
-Abstract2CoverLetter is a standalone browser-based academic publishing tool. It turns core manuscript information into a professional cover-letter draft and evaluates that draft before submission.
+Abstract2CoverLetter is a standalone browser-based academic publishing tool. It turns core manuscript information into a professional editor-facing cover-letter draft and evaluates that draft before submission.
 
 ## Inputs
 
@@ -12,17 +12,16 @@ Abstract2CoverLetter is a standalone browser-based academic publishing tool. It 
 - Editor-in-Chief name
 - The journal’s aims and scope
 - Corresponding author name
-- Author number: 1 to 10
+- Author number: 1 or 2 or more
 - Manuscript type (optional)
 - Special note (optional)
 
 ## Authorship logic
 
-The generated letter adapts automatically to the selected author number:
+The application adapts the cover-letter wording to the authorship structure:
 
-- 1 author: singular language such as “my manuscript” and “I confirm”
-- 2–10 authors: plural language such as “our manuscript” and “We confirm”
-- For multi-author manuscripts, the declaration refers to the selected total number of authors.
+- 1 author: first-person singular wording such as “I am pleased to submit my manuscript” and “I confirm...”
+- 2 or more authors: corresponding-author wording such as “On behalf of my co-authors, I am pleased to submit our manuscript” and “We confirm...”
 
 ## Workflow
 
@@ -55,7 +54,7 @@ The application produces one journal-ready cover-letter draft and also provides:
 
 ## Important limitation
 
-The application uses information supplied by the user but does not independently verify the current Editor-in-Chief, journal aims and scope, author count, manuscript originality, exclusivity, or author approval. These items must be checked before submission.
+The application uses the aims and scope text supplied by the user but does not independently verify that it is current or complete. It also does not independently verify the current Editor-in-Chief, manuscript originality, exclusivity, authorship approval, or other submission declarations. These items must be checked by the author(s) before submission.
 
 ## Privacy
 
